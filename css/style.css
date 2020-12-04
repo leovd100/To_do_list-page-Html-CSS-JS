@@ -1,0 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background: red;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    max-width: 640px;
+    border-radius: 30px;
+    margin: 35px auto;
+    background: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    
+}
+
+li{
+    background-color: rgb(245, 245, 248);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 9px blue, 15px 2px 9px blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+button{
+    background-color: red;
+    border-radius: 15px;
+    
+}
+.frm{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+  
+}
+
+.frm input{
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 45px;
+    width: 30em;
+    height: 5vh;
+}
+
+.frm button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
